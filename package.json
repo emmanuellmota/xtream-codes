@@ -1,21 +1,23 @@
 {
   "name": "xtream-codes",
   "version": "1.0.9",
-  "description": "xtream-codes javascript api for NodeJS",
+  "description": "xtream-codes javascript SDK",
   "author": "Bruno Carvalho de Araujo <brunocarvalhodearaujo@gmail.com>",
   "license": "MIT",
   "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fetch-everywhere": "^1.0.5",
+    "lodash.pickby": "^4.6.0",
+    "query-string": "^6.1.0"
+  },
   "repository": {
     "url": "https://github.com/brunocarvalhodearaujo/xtream-codes.git",
     "type": "git"
   },
   "bugs": {
     "url": "https://github.com/brunocarvalhodearaujo/xtream-codes/issues"
-  },
-  "dependencies": {
-    "bluebird": "^3.5.1",
-    "lodash.pickby": "^4.6.0",
-    "node-fetch": "^2.1.1",
-    "query-string": "^6.0.0"
   }
 }
